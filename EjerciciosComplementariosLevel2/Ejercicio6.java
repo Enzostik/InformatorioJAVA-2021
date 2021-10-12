@@ -11,10 +11,11 @@ public class Ejercicio6 {
         Scanner entrada=new Scanner(System.in);
         Set<ArrayList<String>> empleados = new HashSet<ArrayList<String>>();
         Map<Integer, Integer> sueldos = new HashMap<Integer, Integer>();
-        //ingresar 3 datos de empleados
         
-        System.out.println("Ingrese datos de 3 empleados:");
-        for (int i=0;i<3;i++){
+        //formulario para ingreso de cantidad de empleados y sus datos
+        System.out.println("Ingrese cantidad de empleados:");
+        int cantEmpleados=Integer.parseInt(entrada.nextLine());
+        for (int i=0;i<cantEmpleados;i++){
             empleadoAdd(empleados,nuevoEmpleado(entrada));
         }
         entrada.close();
