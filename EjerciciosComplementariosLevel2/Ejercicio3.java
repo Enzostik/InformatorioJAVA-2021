@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Ejercicio3 {
     public static void main(String[] args){
-        List<Integer> baraja = new ArrayList<Integer>();
+        List<String> baraja = new ArrayList<String>();
         addCartas(baraja);
         System.out.println("Cartas ordenadas: "+baraja); //Orden actual de cartas
         Collections.reverse(baraja); //invierte el orden de las cartas
@@ -15,10 +15,11 @@ public class Ejercicio3 {
         System.out.println("Cartas mezcladas: "+baraja);
 
     }
-    private static void addCartas(List<Integer> baraja){
+    private static void addCartas(List<String> baraja){
+        String[] tipo = {"pica","diamante","corazon","trebol"};
         for (int i=0;i<4;i++){
             for (int j=1;j<11;j++){
-                baraja.add(j);
+                baraja.add(Integer.toString(j)+" de "+tipo[i]);
             }
         }
     }
