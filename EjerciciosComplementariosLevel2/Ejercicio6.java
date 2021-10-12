@@ -12,7 +12,9 @@ public class Ejercicio6 {
         Set<ArrayList<String>> empleados = new HashSet<ArrayList<String>>();
         Map<Integer, Integer> sueldos = new HashMap<Integer, Integer>();
         //ingresar 3 datos de empleados
-        for (int i=0;i<4;i++){
+        
+        System.out.println("Ingrese datos de 3 empleados:");
+        for (int i=0;i<3;i++){
             empleadoAdd(empleados,nuevoEmpleado(entrada));
         }
         entrada.close();
