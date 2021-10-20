@@ -3,7 +3,6 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-
 public class Ejercicio3 {
     public static void main(String[] args){
         List<String> baraja = new ArrayList<String>();
@@ -13,7 +12,6 @@ public class Ejercicio3 {
         System.out.println("Cartas invertidas: "+baraja);
         Collections.shuffle(baraja); //desrodenar las cartas aleatoriamente
         System.out.println("Cartas mezcladas: "+baraja);
-
     }
     private static void addCartas(List<String> baraja){
         String[] tipo = {"pica","diamante","corazon","trebol"};

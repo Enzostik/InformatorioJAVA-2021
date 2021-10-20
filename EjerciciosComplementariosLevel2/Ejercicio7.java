@@ -2,13 +2,11 @@ package EjerciciosComplementariosLevel2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-
 public class Ejercicio7 {
     public static void main(String[] args){
         System.out.println("Ejemplo de funcion: fizzBuzzFunction(1, 8)");
         List<String> lista = fizzBuzzFunction(1, 8);
         System.out.println(lista);
-        
         Scanner entrada = new Scanner(System.in);
         int n1;
         int n2;
@@ -22,7 +20,6 @@ public class Ejercicio7 {
         List<String> listaPersonalizada = fizzBuzzFunction(n1, n2);
         System.out.println(listaPersonalizada);
         entrada.close();
-        
     }
     private static List<String> fizzBuzzFunction(int n1, int n2){
         //condicion n2>n1

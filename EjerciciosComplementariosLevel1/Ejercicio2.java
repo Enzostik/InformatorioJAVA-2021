@@ -1,6 +1,5 @@
 package EjerciciosComplementariosLevel1;
 import java.util.Scanner;
-
 public class Ejercicio2 {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
@@ -16,7 +15,6 @@ public class Ejercicio2 {
         devuelveImprime(numero1,"/",numero2);
         devuelveImprime(numero1,"%",numero2);
     }
-
     private static void devuelveImprime(int num1, String operacion, int num2){
         float resultado=0f;
         switch (operacion){

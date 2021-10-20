@@ -2,7 +2,6 @@ package EjerciciosComplementariosLevel2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-
 public class Ejercicio5 {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
@@ -17,7 +16,6 @@ public class Ejercicio5 {
         cargarLista(valor_por_hora,5,entrada);
         entrada.close();
         //calcular los elementos de la lista de "resultados"
-        
         System.out.println("Lista de Resultados:");
         resultados=resultadosLista(horas_trabajadas,valor_por_hora);
     }

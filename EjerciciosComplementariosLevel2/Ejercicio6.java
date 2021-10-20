@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
 public class Ejercicio6 {
     public static void main(String[] args){
         Scanner entrada=new Scanner(System.in);

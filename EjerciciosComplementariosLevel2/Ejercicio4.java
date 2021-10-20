@@ -2,14 +2,12 @@ package EjerciciosComplementariosLevel2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-
 public class Ejercicio4 {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
         List<String> alumnos = new ArrayList<String>();
         listaAdd(entrada,alumnos,12);
         entrada.close();
-        
         List<String> curso1 = listaCursos(1,3,alumnos);
         List<String> curso2 = listaCursos(2,3,alumnos);
         List<String> curso3 = listaCursos(3,3,alumnos);
